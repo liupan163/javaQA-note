@@ -13,16 +13,19 @@
 //NoClassDefFoundError是一个Error(不可恢复)，而ClassNotFoundException是一个异常(可恢复)
 /*  原因：ClassNotFoundException---
     java支持用Class.forName方法来动态地加载类，任意一个类名如果被作为参数触底给这个方法都将导致该类被加载到JVM内存中，如果这个类
-    在类路径中没有找到，报此异常。例如使用Class.forName方法来动态地加载类时。
+    在类路径中没有找到，报此异常。例如使用Class.forName,ClassLoader.loadClass方法来动态地加载类时。
     另外当一个类，已经被一个加载器加载到内存中，此时另一个类加载器又尝试着动态地从同一包中加载这个类。
     solution：1、检查路径和文件名 2、控制动态类加载过程可解决
 */
 /*  原因：NoClassDefFoundError---
     如果JVM或者ClassLoader实例尝试加载（可以通过正常方法调用，也可能是new来创建新对象）类的时候找不到------类定义-----
-    要查找的类编译的时候是存在的，运行的时候找不到了，这时候就NoClassDefFoundError
+    要查找的类:编译的时候是存在的，运行的时候找不到了，这时候就ClassNotFoundException
     大概率是打包时漏掉了，或者jar包出现损坏或者篡改。
     solution：检查路径下文件有没有
 */
+//加载时从外部存储器找不到 ->ClassNotFoundException
+//连接时从内存找不到      ->NoClassDefFoundException
+
 //2、 throw new Exception{} 和 functon() throws Exception{}
 
 
