@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc7aeb2-5a93-4fe4-a640-a349a0349fd1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/11IO/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09Hashtable/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/09Hashtable/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10ConcurrentHashMap/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/10ConcurrentHashMap/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +49,8 @@
         <option value="$PROJECT_DIR$/07int/main.java" />
         <option value="$PROJECT_DIR$/08Vector/main.java" />
         <option value="$PROJECT_DIR$/09Hashtable/main.java" />
-        <option value="$PROJECT_DIR$/10ConcurrentHashMap/main.java" />
         <option value="$PROJECT_DIR$/11IO/main.java" />
+        <option value="$PROJECT_DIR$/10ConcurrentHashMap/main.java" />
       </list>
     </option>
   </component>
@@ -91,11 +88,6 @@
             <path>
               <item name="javaQA-note" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaQA-note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaQA-note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaQA-note" type="462c0819:PsiDirectoryNode" />
-              <item name="10ConcurrentHashMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaQA-note" type="b2602c69:ProjectViewProjectNode" />
@@ -199,12 +191,12 @@
       <workItem from="1543321540761" duration="4494000" />
       <workItem from="1543366950040" duration="1115000" />
       <workItem from="1543397777570" duration="31000" />
-      <workItem from="1543453848972" duration="4580000" />
+      <workItem from="1543453848972" duration="6156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34968000" />
+    <option name="totallyTimeSpent" value="36544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="788" y="374" width="1100" height="668" extended-state="0" />
@@ -221,7 +213,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36731106" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36672968" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15961538" />
@@ -314,11 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10ConcurrentHashMap/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#351#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>

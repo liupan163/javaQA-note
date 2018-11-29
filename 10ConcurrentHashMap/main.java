@@ -12,11 +12,11 @@
 //各种有序容器的线程安全版本等。
 
 //A:为什么需要ConcurrentHashMap？
-Hashtable本身比较低效，他的get、put、操作都是通过synchronize。就是并发操作竞争一把锁，并发效率很低。
+//Hashtable本身比较低效，他的get、put、操作都是通过synchronize。就是并发操作竞争一把锁，并发效率很低。
 
-HashMap并不是线程安全的，并发情况会导致类似CPU100%等问题，那为什么不用Collections提供的同步包装类来解决呢？
-看代码片段，同步包装器只是利用输入Map构造了另一个同步版本，所有操作虽然不在声明为synchronized，但还是利用了this作为互斥的mutex，没有真正
-意义上的改进
+//HashMap并不是线程安全的，并发情况会导致类似CPU100%等问题，那为什么不用Collections提供的同步包装类来解决呢？
+//看代码片段，同步包装器只是利用输入Map构造了另一个同步版本，所有操作虽然不在声明为synchronized，但还是利用了this作为互斥的mutex，没有真正
+//意义上的改进
 
 /*private static class SynchronizedMap<K,V> implements Map<K,V>, Serializable {
     private final Map<K, V> m; // Backing Map
