@@ -14,3 +14,9 @@ String的Immutable性质，决定了对象在拷贝时不需要额外复制数�
 再看StringBuffer,它的线程是通过各种修改数据方法加上synchronized关键字实现。
 StringBuilder，底层都是利用可修改的（char，jdk9后是byte）数组，二者都继承了AbstractStringBuilder，里面包含了基本操作，区别仅在于最终的方法是否加了synchronize
 另外这个内部数组的大小，不能过大，不能过小。目前默认16
+
+
+Q: == equals hashcode
+A:  equals 比较两个常量的地址是否相同
+    hashcode 比较地址
+    == 就是比较地址
