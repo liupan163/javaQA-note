@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8dc7aeb2-5a93-4fe4-a640-a349a0349fd1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05stringBuffer/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/05stringBuffer/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07int/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/07int/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05stringBuffer/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -46,7 +50,6 @@
         <option value="$PROJECT_DIR$/03final/main.java" />
         <option value="$PROJECT_DIR$/04reference/main.java" />
         <option value="$PROJECT_DIR$/06proxy/main.java" />
-        <option value="$PROJECT_DIR$/07int/main.java" />
         <option value="$PROJECT_DIR$/08Vector/main.java" />
         <option value="$PROJECT_DIR$/09Hashtable/main.java" />
         <option value="$PROJECT_DIR$/10ConcurrentHashMap/main.java" />
@@ -55,6 +58,8 @@
         <option value="$PROJECT_DIR$/13InterfaceAbstract/main.java" />
         <option value="$PROJECT_DIR$/15Synchronized/main.java" />
         <option value="$PROJECT_DIR$/05stringBuffer/main.java" />
+        <option value="$PROJECT_DIR$/07int/main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -76,8 +81,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1995" />
-    <option name="y" value="40" />
+    <option name="x" value="2095" />
+    <option name="y" value="14" />
     <option name="width" value="1227" />
     <option name="height" value="973" />
   </component>
@@ -96,15 +101,15 @@
             <path>
               <item name="javaQA-note" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaQA-note" type="462c0819:PsiDirectoryNode" />
-              <item name="05stringBuffer" type="462c0819:PsiDirectoryNode" />
+              <item name="09Hashtable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,15 +215,16 @@
       <workItem from="1544173006742" duration="2078000" />
       <workItem from="1544231443948" duration="4533000" />
       <workItem from="1544404115640" duration="185000" />
-      <workItem from="1544510604804" duration="865000" />
+      <workItem from="1544510604804" duration="3282000" />
+      <workItem from="1546508578079" duration="118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59277000" />
+    <option name="totallyTimeSpent" value="61812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1995" y="40" width="1227" height="973" extended-state="0" />
+    <frame x="2095" y="14" width="1227" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -230,20 +236,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23980816" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19622965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19965725" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -414,18 +420,27 @@
     <entry file="file://$PROJECT_DIR$/16Synchronized/main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05stringBuffer/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07int/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
