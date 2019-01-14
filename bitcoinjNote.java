@@ -39,6 +39,25 @@ signature = tx.calculateSignature(i, key, script, Transaction.SigHash.ALL, false
 加入签名脚本：txIn.setScriptSig(inputScript);
 
 //OP_RETURN is a script opcode used to mark a transaction output as invalid.
-//脚本操作符，  交易标记为无效    OP_RETURN outputs can be used to burn bitcoins
+//OP_RETURN outputs can be used to burn bitcoins
+//脚本操作符，无效交易标记--目的是为了在比特币中存储信息，方法是在交易输出脚本中加入OP_RETURN标志
 
 
+
+
+//--------------------------PeerGroup-------------------------------
+/*
+*<ol>
+*   接受钱包交易广播             <li>So the wallet receives broadcast transactions.</li>
+*   pending状态的交易通知出去    <li>Announcing pending transactions that didn't get into the chain yet to our peers.</li>
+*   设置fast catchup起始时间    <li>Set the fast catchup time using {@link PeerGroup#setFastCatchupTimeSecs(long)}, to optimize chain download.</li>
+*</ol>
+*/
+接受tx交易广播，对应
+        peerGroup中, wallet.setTransactionBroadcaster(this)
+        ......
+        tx.broadcast = broadcaster.broadcastTransaction(tx)
+
+
+
+isMine（）方法，作用:返回这个输出是个key，还是个钱包里面的地址
